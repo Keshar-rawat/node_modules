@@ -1,0 +1,98 @@
+import React from 'react';
+
+const App = () => {
+  return (
+    <div>
+      <header>
+        <h1>Website Header</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <article>
+        <header>
+          <h2>Article Title</h2>
+        </header>
+        <section>
+          <h3>Section Title</h3>
+          <p>This is a paragraph inside a section.</p>
+          <div>
+            <p>This is inside a div element.</p>
+            <span>This is inside a span element.</span>
+          </div>
+        </section>
+        <section>
+          <h3>Another Section</h3>
+          <p>Another paragraph inside a different section.</p>
+        </section>
+      </article>
+
+      <aside>
+        <h3>Related Information</h3>
+        <p>This is an aside element for related content.</p>
+      </aside>
+
+      <footer>
+        <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+      </footer>
+
+      <div>
+        <p><strong>Audio:</strong></p>
+        <audio controls>
+          <source src="audio-file.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <div>
+        <p><strong>Video:</strong></p>
+        <video controls>
+          <source src="video-file.mp4" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
+      </div>
+
+      <div>
+        <p><strong>Canvas:</strong></p>
+        <canvas width="300" height="200"></canvas>
+      </div>
+
+      <div>
+        <p><strong>Datalist:</strong></p>
+        <input list="browsers" name="browser" id="browser" />
+        <datalist id="browsers">
+          <option value="Chrome" />
+          <option value="Firefox" />
+          <option value="Safari" />
+          <option value="Edge" />
+        </datalist>
+      </div>
+
+      <div>
+        <p><strong>Progress Bar:</strong></p>
+        <progress value="70" max="100"></progress>
+      </div>
+
+      <div>
+        <p><strong>Details:</strong></p>
+        <details>
+          <summary>Click to see more</summary>
+          <p>This is hidden content inside the details element.</p>
+        </details>
+      </div>
+
+      <div>
+        <p><strong>Output:</strong></p>
+        <output name="result">Your output will appear here.</output>
+      </div>
+    </div>
+  );
+};
+
+export default App;
